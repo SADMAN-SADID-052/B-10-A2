@@ -31,7 +31,12 @@ body{
     color: white;
     padding: 15px 20px;
     border: 0;
-    border-radius: 5px;
+    border-radius: 30px;
+}
+
+.primary-paragraph
+{
+    font-size: 0.5rem;
 }
 
 /* Nav section design start here */
@@ -80,4 +85,139 @@ header
 {
     font-weight: 800;
     font-size: 2rem;
+}
+
+.nav-icon-section{
+     color: #222;
+}
+
+/* Bannar section start here */
+
+.bannar
+{
+    max-width: 1100px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+.bannar-section
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.bannar-text
+{
+    margin-top: 40px;
+
+}
+
+.bannar-text>h1{
+
+font-size:3.5rem;
+font-weight: 900;
+line-height: 120%;
+
+}
+
+.bannar-text>p{
+color: rgba(255, 255, 255, 0.5);
+
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.5px;
+
+}
+
+.fancy-text{
+    font-family: 'Brush Script MT', cursive; /* Change to desired cursive font */
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.bannar-button
+{
+margin-top: 20px;
+
+
+}
+.bannar-button>.app
+{
+
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.bannar-img
+{
+    width: 150px;
+    height: 250px;
+}
+.bannar-img>img{
+    width: 100%;
+}
+
+/* Change our habit section */
+
+.habit
+{
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+.habit-pic-container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.h-pic {
+
+    width: 200px;
+    text-align: center;
+}
+
+.h-pic>.habit-img{
+
+    width: 200px;
+
+
+
+}
+
+.habit-img>img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+/* Responsive for mobile */
+
+@media screen and (max-width:576px) {
+
+    .logo{
+        margin-left: 30px;
+    }
+
+    .nav-section>.nav-home,.nav-section>.nav
+    {
+        display:none;
+
+    }
+
+    .nav-icon-section
+    {
+        color:white;
+        width: 30px;
+    }
+    
 }
