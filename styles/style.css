@@ -38,6 +38,7 @@ body{
 {
     font-size: 0.9rem;
     margin-top: 10px;
+    line-height: 1.5;
     color:rgba(255, 255, 255, 0.5);
 }
 
@@ -247,6 +248,7 @@ position: relative;
 {
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 50px;
 }
 
 .h-pic {
@@ -268,3 +270,63 @@ position: relative;
     width: 100%;
     border-radius: 50%;
 }
+
+
+
+/* Run section design start here */
+
+
+
+.run{
+
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #222;
+    border-radius: 20px;
+
+}
+.run-container{
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.run-text-container{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.run-text>p{
+    margin-top: 10px;
+}
+
+
+.run-text>h1{
+    font-weight: 800;
+    font-size: 24px;
+}
+.join-now
+{
+    margin-top: 20px;
+}
+
+
+
+.run-img{
+
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    margin-right: 2%;
+   
+    
+}
+
+.run-img>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
