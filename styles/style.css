@@ -223,3 +223,48 @@ position: relative;
 
 /* Change our habit section */
 
+.habit
+{
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+.habit-text{
+
+    text-align: center;
+
+}
+
+.habit-text>h1
+{
+    font-weight: 800;
+}
+.habit-img-text
+{
+    margin-top: 30px;
+}
+.habit-pic-container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.h-pic {
+
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.h-pic>.habit-img{
+
+    width: 200px;
+
+
+
+}
+
+.habit-img>img{
+    width: 100%;
+    border-radius: 50%;
+}
