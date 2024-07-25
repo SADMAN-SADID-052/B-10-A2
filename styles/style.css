@@ -330,3 +330,107 @@ position: relative;
     border-radius: 30px;
 }
 
+
+/* calculate BMI section start here */
+
+.cal
+{
+    max-width: 1200px;
+    background-color: #222;
+    margin: 40px auto;
+}
+
+
+.cal-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.BMI
+{
+    margin-top: 10%;
+    margin-left: 17%;
+}
+
+
+.BMI>h1{
+    font-weight: 800;
+}
+
+
+.cal-form
+{
+    margin: 30px 0 20px 50px;
+}
+
+.main-form
+{
+    margin: 30px 60px 20px 0;
+}
+
+
+.bmi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bmi-table th,
+.bmi-table td {
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.bmi-table th {
+    background-color: #333;
+}
+
+.bmi-table tr {
+    background-color: #242424;
+}
+
+form>input,form>select
+{
+    background: rgba(255, 255, 255, 0.1);
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.ph::placeholder
+{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+form>select
+{
+    width: 40%;
+}
+
+select>option
+{
+    color: black;
+}
+.last-form>select
+{
+    width: 81%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.all-form-part
+{
+    margin-top: 40px;
+    
+}
+
+
+
+
