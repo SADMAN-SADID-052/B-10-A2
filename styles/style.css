@@ -432,6 +432,85 @@ select>option
 }
 
 
+/* Plan section */
+
+
+.plan,.plan1,.plan2
+{
+    max-width: 1100px;
+    margin: 80px auto;
+    background-color: #222;
+}
+.plan-container
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.plan-text
+{
+    max-width: 1100px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.plan-text1>h1
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-plan>button
+{
+    padding: 20px;
+    border: 0;
+    background-color: orangered;
+}
+
+.plan-details
+{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-det>p{
+
+    font-size: 0.9rem;
+    line-height: 2;
+    /* margin-left: 10px; */
+}
+
+.Basic-plan>h1{
+    font-size: 35px;
+}
+
+.Basic-plan>h4{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgba(205, 199, 199, 0.848);
+}
+.purchase>button
+{
+    width: 150px;
+    height: 90px;
+    border: 0;
+    background-color: orangered;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* .purchase
+{
+    padding: 20px;
+} */
+
 
 /* meet our team section */
 
