@@ -498,3 +498,164 @@ select>option
     font-size: 10px;
   }
 
+
+  
+
+
+
+
+
+
+
+  /* footer section start here */
+
+  .foot
+  {
+    max-width: 1200;
+    margin: 70px auto;
+    background-color: #222;
+    padding: 30px;
+    
+  }
+
+  .feetness-foot
+  {
+    line-height: 1.5;
+  }
+  .footer-container
+  {
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .get>ul>li{
+    list-style: none;
+    line-height: 1.5;
+  }
+
+  .copy-reserved{
+    text-align: center;
+   
+  }
+  
+
+hr{
+    width: 900px;
+
+    margin: 80px auto;
+    
+}
+
+
+/* Responsive for mobile */
+
+@media screen and (max-width:576px) {
+
+    .join-now
+    {
+        margin-left: 27%;
+    }
+
+    .run
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .run-container
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+       
+    }
+  /* bannar section */
+
+  .bannar-text {
+    margin-top: 40px;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.bannar-img
+{
+    margin-left: 25%;
+}
+
+.card2
+{
+    bottom: 24%;
+    left: 2%;
+}
+
+.card1
+{
+    right: 7%;
+    top: 59%;
+    /* position: fixed; */
+}
+
+
+
+    .logo{
+        margin-left: 30px;
+    }
+
+    .nav-section>.nav-home,.nav-section>.nav
+    {
+    display:none;
+
+    }
+
+    .nav-icon-section
+    {
+        color:white;
+        width: 30px;
+    }
+
+    /* responsive habit section */
+
+    .habit-pic-container
+    {
+        grid-template-columns: 1fr;
+        margin-left: 25%;
+    }
+    
+    /* responsive trainer section */
+     
+    .meet
+    {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .meet-trainer-container
+    {
+        grid-template-columns: 250px;
+    }
+
+    .trainer-abc {
+        margin-top: 34%;
+        margin-left: 30px;
+    }
+
+    
+.footer-container,.bannar-section,.cal-container
+{
+    flex-direction: column;
+}
+hr {
+ 
+
+    width: 100%;
+}
+
+.get{
+    margin-top: 20px;
+}
+
+.main-form
+{
+    margin-left: 20px;
+}
+}
