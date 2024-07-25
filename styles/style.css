@@ -180,9 +180,11 @@ position: relative;
 {
     width: 140px;
     height: 70px;
-    background-color:#222;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
     padding: 10px;
-    border-radius: 20px;
     position: absolute;
     z-index: 1;
     right: 5%;
@@ -199,9 +201,11 @@ position: relative;
     width: 170px;
     height: 70px;
     gap: 13px;
-    background-color:#7e6e6e;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.54);
     padding: 10px;
-    border-radius: 20px;
     position: absolute;
     z-index: 1;
     right: 23%;
@@ -481,7 +485,7 @@ select>option
 
 .plan-det>p{
 
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     line-height: 2;
     /* margin-left: 10px; */
 }
@@ -638,8 +642,8 @@ hr{
 
     .run
     {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .run-container
     {
@@ -664,16 +668,23 @@ hr{
 
 .card2
 {
-    bottom: 24%;
+    bottom: -82%;
     left: 2%;
 }
 
 .card1
 {
-    right: 7%;
-    top: 59%;
+    right: 9%;
+    top: 142%;
     /* position: fixed; */
 }
+
+
+.bmi-table{
+    width: 80%;
+}
+
+
 
 
 
@@ -692,6 +703,15 @@ hr{
         color:white;
         width: 30px;
     }
+
+    /* responsive plan section */
+    
+
+.plan-details
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
     /* responsive habit section */
 
@@ -719,7 +739,7 @@ hr{
     }
 
     
-.footer-container,.bannar-section,.cal-container
+.footer-container,.bannar-section,.cal-container,.plan-container
 {
     flex-direction: column;
 }
