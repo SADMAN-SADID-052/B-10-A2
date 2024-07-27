@@ -61,12 +61,13 @@ header
 .nav-section
 {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content:center ;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding: 10px;
+    margin-right: 30px;
     
 
     
@@ -88,10 +89,12 @@ header
 {
     font-weight: 800;
     font-size: 2rem;
+    margin-left: 50px;
 }
 
 .nav-icon-section{
-     color:black;
+     /* color:black; */
+     display: none;
 }
 
 /* Bannar section start here */
@@ -169,8 +172,7 @@ margin-top: 20px;
     width: 190px;
     height: 260px;
     margin-right: 60px;
-
-position: relative;
+     /* position: relative; */
 }
 .bannar-img>img{
     width: 100%;
@@ -187,11 +189,13 @@ position: relative;
     padding: 10px;
     position: absolute;
     z-index: 1;
-    right: 5%;
-    top: 33%;
+    /* right: 5%;
+    top: 33%; */
+    margin-left: 22%;
+    margin-top: 6%;
 }
 .card1>p{
-    font-size: 0.7rem;
+    font-size: 0.5rem;
 }
 
 
@@ -206,24 +210,33 @@ position: relative;
     backdrop-filter: blur(10px);
     background: rgba(48, 48, 48, 0.54);
     padding: 10px;
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
-    right: 23%;
-    bottom: 29%;
+    /* right: 23%;
+    bottom: 29%; */
+
+    margin-top: 53%;
+    margin-right: -35px;
+
 }
 
 .card-2-text>p{
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 
 
 .card-2-carcile{
-    width: 35px;
-    height: 35px;
-    background-color: #FD6F00;
+  width: 35px;
+    height: 35px; 
+     background-color: #FD6F00;
     border: 0;
     border-radius: 50%;
    
+}
+
+.card-2-icon>i
+{
+    display: none;
 }
 
 /* Change our habit section */
@@ -477,7 +490,7 @@ select>option
 .plan-details
 {
     display: flex;
-    /* justify-content: space-around; */
+   
     gap: 70px;
     justify-content: center;
     align-items: center;
@@ -663,20 +676,19 @@ hr{
 
 .bannar-img
 {
-    margin-left: 25%;
+    margin-top: 5%;
 }
 
 .card2
 {
-    bottom: -82%;
-    left: 2%;
+   margin-top: 40%;
 }
 
 .card1
 {
-    right: 9%;
-    top: 142%;
-    /* position: fixed; */
+
+    margin-left: 58%;
+    margin-top: 10%;
 }
 
 
@@ -685,11 +697,19 @@ hr{
 }
 
 
-
-
-
-    .logo{
+.logo{
         margin-left: 30px;
+    }
+ 
+    .card-2-carcile
+    {
+        display: none;
+    } 
+
+
+    .card-2-icon>i
+    {
+        display: block;
     }
 
     .nav-section>.nav-home,.nav-section>.nav
@@ -698,10 +718,12 @@ hr{
 
     }
 
+   
+
     .nav-icon-section
     {
-        color:white;
-        width: 30px;
+
+        display: block;
     }
 
     /* responsive plan section */
@@ -743,6 +765,12 @@ hr{
 {
     flex-direction: column;
 }
+
+.feetness-foot>p{
+
+    font-size: 0.8rem; 
+
+}
 hr {
  
 
@@ -756,5 +784,10 @@ hr {
 .main-form
 {
     margin-left: 20px;
+}
+
+.Basic-plan
+{
+    text-align: center;
 }
 }
