@@ -32,6 +32,7 @@ body{
     padding: 15px 20px;
     border: 0;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .primary-paragraph
@@ -161,6 +162,7 @@ margin-top: 20px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .pic-and-card
@@ -485,6 +487,7 @@ select>option
     padding: 20px;
     border: 0;
     background-color: orangered;
+    cursor: pointer;
 }
 
 .plan-details
@@ -521,12 +524,9 @@ select>option
     background-color: orangered;
     color: #fff;
     font-weight: 700;
+    cursor: pointer;
 }
 
-/* .purchase
-{
-    padding: 20px;
-} */
 
 
 /* meet our team section */
@@ -593,15 +593,7 @@ select>option
   }
 
 
-  
-
-
-
-
-
-
-
-  /* footer section start here */
+/* footer section start here */
 
   .foot
   {
